@@ -10,6 +10,18 @@ html {
   .link:hover, .bottomLink:hover {
     color: #88d8b0; }
 
+.navmain a {
+  margin-left: 30px; }
+
+.content {
+  margin-left: 8%; }
+
+.content1 img, .content2 img, .content3 img, .content4 img {
+  margin-left: 30%; }
+
+.extra {
+  margin-left: 5%; }
+
 body {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background: #96ceb4; }
@@ -34,7 +46,6 @@ h3 {
   .navmain li {
     display: inline; }
   .navmain a {
-    margin-left: 30px;
     margin-top: -20px;
     padding: 10px;
     float: left; }
@@ -47,7 +58,6 @@ h3 {
     width: 100%; }
 
 .content {
-  margin-left: 8%;
   margin-top: 15px; }
   .content p {
     padding: 10px; }
@@ -62,13 +72,11 @@ h3 {
     text-align: center; }
   .content1 img, .content2 img, .content3 img, .content4 img {
     width: 40%;
-    margin-left: 30%;
     border-radius: 9px;
     margin-bottom: 15px; }
 
 .extra {
-  margin-top: 15px;
-  margin-left: 5%; }
+  margin-top: 15px; }
 
 .cards {
   margin-top: 15px; }

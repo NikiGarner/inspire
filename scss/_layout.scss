@@ -27,7 +27,6 @@ h3 {
       display:inline;
     }
     a{
-      margin-left: 30px;
       margin-top: -20px;
       padding: 10px;
       float: left;
@@ -47,7 +46,6 @@ h3 {
 
 //Blog posts
   .content{
-    margin-left: 8%;
     margin-top: $content-margin;
     p {
       padding: 10px;
@@ -64,7 +62,6 @@ h3 {
       }
       img {
         width: 40%;
-        margin-left: 30%;
         border-radius: $border-radius;
         margin-bottom: $content-margin;
       }
@@ -72,7 +69,6 @@ h3 {
 //Extra title
   .extra{
     margin-top: $content-margin;
-    margin-left: 5%;
   }
 //Featured posts
   .cards{
