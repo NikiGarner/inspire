@@ -1,0 +1,91 @@
+body {
+  font-family: $helvetica;
+  background: #96ceb4;
+}
+
+//Navbar
+h3 {
+  font-family: $lucida-grande;
+  text-transform: uppercase;
+}
+  .navmain {
+    background: lighten(#88d8b0,10%);
+    border-radius: $border-radius;
+    height: 80%;
+    h1 {
+      padding-left: 7%;
+      font-size: 40px;
+      color: 	#ffeead;
+    }
+    ul{
+      background: #ff6f69;
+      padding: 30px;
+      margin-bottom: 0;
+      border-radius: $border-radius;
+    }
+    li{
+      display:inline;
+    }
+    a{
+      margin-left: 30px;
+      margin-top: -20px;
+      padding: 10px;
+      float: left;
+    }
+  }
+
+
+//Main Image
+  .main-story {
+    margin-top: $content-margin;
+    border-radius: $border-radius;
+    img {
+      border-radius: $border-radius;
+      width: 100%;
+    }
+  }
+
+//Blog posts
+  .content{
+    margin-left: 8%;
+    margin-top: $content-margin;
+    p {
+      padding: 10px;
+    }
+  }
+    .content1, .content2, .content3, .content4 {
+      border: $page-border;
+      border-radius: $border-radius;
+      margin-top: $content-margin;
+      float:left;
+      margin: 1%;
+      h3 {
+        text-align: center;
+      }
+      img {
+        width: 40%;
+        margin-left: 30%;
+        border-radius: $border-radius;
+        margin-bottom: $content-margin;
+      }
+    }
+//Extra title
+  .extra{
+    margin-top: $content-margin;
+    margin-left: 5%;
+  }
+//Featured posts
+  .cards{
+    margin-top: $content-margin;
+    .card{
+      border:$page-border;
+      border-radius: $border-radius;
+      float:left;
+      height: 20vh;
+      text-align: center;
+      >img {
+        border-radius: $border-radius;
+        width: 100%;
+      }
+    }
+  }

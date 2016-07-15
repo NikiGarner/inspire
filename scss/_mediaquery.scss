@@ -1,0 +1,32 @@
+body{
+  @media only screen and (min-width: 768px){
+    .main-story {
+      @include span-columns(10);
+      img {
+        margin-left: 10%;
+      }
+    }
+    .content{
+      @include span-columns(10);
+      .content1{
+        @include span-columns(3);
+          float:right;
+          height: 83vh;
+          margin-right: 0;
+          padding-right: 0;
+          img {
+            margin-bottom: 0;
+          }
+          }
+      .content2, .content3, .content4{
+      @include span-columns(8);
+        float:left;
+        margin: 1%;
+      }
+    }
+    .cards {
+      margin-left: 5%;
+    }
+
+  }
+}
